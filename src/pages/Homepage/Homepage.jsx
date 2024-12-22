@@ -1,11 +1,11 @@
-
+import HeroBannerHomepage from './sections/HeroBannerHomepage';
 
 const Homepage = () => {
-    return (
-        <div>
-            <h1 className="">this is homepage</h1>
-        </div>
-    );
+  return (
+    <div>
+      <HeroBannerHomepage />
+    </div>
+  );
 };
 
 export default Homepage;

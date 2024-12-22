@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-        <div className="h-screen">
+        <footer className="h-screen bg-primary">
             <h1>this is footer</h1>
-        </div>
+        </footer>
     );
 };
 

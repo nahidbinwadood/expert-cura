@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full sticky top-0 left-0 z-[50]">
+    <header className="w-full sticky top-0 left-0 z-[50] bg-white">
       <nav className="w-full flex items-center justify-between container mx-auto py-6 font-mulish">
         {/* Logo */}
         <Link to="/">

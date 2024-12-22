@@ -8,7 +8,9 @@ const MainLayout = () => {
     <>
       <TopNav />
       <Navbar />
-      <Outlet />
+      <main className='font-mulish'>
+        <Outlet />
+      </main>
       <Footer />
     </>
   );
