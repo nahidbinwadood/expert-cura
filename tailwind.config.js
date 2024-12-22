@@ -6,7 +6,10 @@ export default {
   theme: {
     extend: {
       borderRadius: {
-        lg: 'var(--radius)',
+        '3xl': '1.625rem',
+        '2xl': '1.5rem',
+        xl: '1.25rem',
+        lg: '0.75rem',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
@@ -44,6 +47,7 @@ export default {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        darkBlue: '#192436',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

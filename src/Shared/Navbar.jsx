@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
 
         {/* CTA */}
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-4">
           <CommonButton to="/login" text="Log in" />
           <CommonButton
             primary={true}

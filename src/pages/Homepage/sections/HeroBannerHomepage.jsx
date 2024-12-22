@@ -7,7 +7,7 @@ const HeroBannerHomepage = () => {
       style={{
         backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroBanner})`,
       }}
-      className="min-h-[70vh] relative h-[70vh] max-h-[70vh] bg-cover bg-center rounded-2xl container mx-auto mt-5 overflow-hidden flex flex-col px-16 py-20 justify-end"
+      className="min-h-[70vh] relative h-[70vh] max-h-[70vh] bg-cover bg-center rounded-xl container mx-auto mt-5 overflow-hidden flex flex-col px-16 py-20 justify-end mb-20"
     >
       {/* blur */}
       <div
