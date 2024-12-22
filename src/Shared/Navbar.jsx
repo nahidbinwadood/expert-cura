@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
 
         {/* Navigation Links */}
-        <ul className="flex items-center gap-4">
+        <ul className="flex items-center gap-5 ml-[100px]">
           {navLinks?.map((navLink) => (
             <li key={navLink?.path}>
               <NavLink
